@@ -13,7 +13,7 @@ const DB_FILE = path.join(DATA_DIR, 'uploads.json');
 fs.mkdirSync(DATA_DIR, { recursive: true });
 if (!fs.existsSync(DB_FILE)) fs.writeFileSync(DB_FILE, '[]');
 
-app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:5173' }));
+app.use(cors({ origin: [process.env.CLIENT_URL || 'http://localhost:5173', 'https://instamartads.vercel.app'] }));
 app.use(express.json());
 const upload = multer({ storage: multer.memoryStorage() });
 
@@ -49,7 +49,7 @@ function parseDate(v) {
   try {
     const d = new Date(v);
     if (!isNaN(d.getTime())) return d.toISOString().slice(0, 10);
-  } catch(e) {}
+  } catch (e) { }
   return String(v).slice(0, 10);
 }
 
