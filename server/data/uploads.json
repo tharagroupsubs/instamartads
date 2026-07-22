@@ -1,0 +1,254 @@
+[
+  {
+    "id": "d28928d8-0640-49fa-a232-61fed919cb3c",
+    "fileName": "TANDER.csv",
+    "uploadedAt": "2026-07-22T06:20:41.409Z",
+    "campaignName": "KARIKKU | TENDER COCONUT WATER | JULY'26 | PAN INDIA",
+    "date": "2026-07-11",
+    "overview": {
+      "date": "2026-07-11",
+      "budget": 4760,
+      "spend": 27,
+      "roi": 0,
+      "gmv": 0,
+      "orders": 0,
+      "units": 0
+    },
+    "traffic": {
+      "impressions": 422,
+      "clicks": 5,
+      "ctr": 0.0118,
+      "ecpc": 5.4,
+      "avgRank": "-"
+    },
+    "conversion": {
+      "addToCart": 4,
+      "a2cRate": 80,
+      "orders": 0,
+      "cvr": 0,
+      "gmv": 0,
+      "roi": 0
+    },
+    "budget": {
+      "dailyBudget": 4760,
+      "spent": 27,
+      "utilized": 0.57,
+      "exhaustedTime": "Not exhausted",
+      "missedSlots": "No major issue"
+    },
+    "organic": {
+      "totalSales": 0,
+      "adsSales": 0,
+      "organicSales": 0,
+      "adsPercent": 100,
+      "organicPercent": 0
+    },
+    "targets": [
+      {
+        "kpi": "ROI",
+        "target": 5,
+        "actual": 0,
+        "status": "Improve"
+      },
+      {
+        "kpi": "CTR",
+        "target": "3%",
+        "actual": "0.0118%",
+        "status": "Improve"
+      },
+      {
+        "kpi": "Orders",
+        "target": "-",
+        "actual": 0,
+        "status": "Improve"
+      },
+      {
+        "kpi": "GMV",
+        "target": "-",
+        "actual": 0,
+        "status": "Improve"
+      },
+      {
+        "kpi": "A2C Rate",
+        "target": "-",
+        "actual": "80%",
+        "status": "Achieved"
+      },
+      {
+        "kpi": "Spend",
+        "target": 4760,
+        "actual": 27,
+        "status": "Good"
+      }
+    ],
+    "products": [
+      {
+        "product": 1,
+        "spend": 27,
+        "impressions": 422,
+        "clicks": 5,
+        "orders": 0,
+        "gmv": 0,
+        "roi": 0,
+        "status": "Monitor"
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": 5,
+        "spend": 27,
+        "impressions": 422,
+        "clicks": 5,
+        "orders": 0,
+        "gmv": 0,
+        "roi": 0,
+        "status": "Monitor"
+      }
+    ],
+    "cities": [
+      {
+        "city": 3,
+        "impressions": 422,
+        "orders": 0,
+        "gmv": 0,
+        "roi": 0
+      }
+    ],
+    "insights": {
+      "bestProduct": "KARIKKU | TENDER COCONUT WATER | JULY'26 | PAN INDIA",
+      "bestKeyword": "Upload keyword report to calculate",
+      "bestCity": "Upload city report to calculate",
+      "worstKeyword": "-",
+      "worstProduct": "KARIKKU | TENDER COCONUT WATER | JULY'26 | PAN INDIA",
+      "budgetExhaustedTime": "Not exhausted",
+      "missedOpportunity": "Keep budget stable and monitor.",
+      "actionTomorrow": "Pause weak campaigns and reduce spend."
+    }
+  },
+  {
+    "id": "7a73f789-4169-402e-a855-19d6af768059",
+    "fileName": "karikku oil july 2026_8432_1783504680446 (1).csv",
+    "uploadedAt": "2026-07-22T05:51:41.085Z",
+    "campaignName": "KARIKKU OIL JULY 2026",
+    "date": "2026-07-07",
+    "overview": {
+      "date": "2026-07-07",
+      "budget": 1900,
+      "spend": 1923.99,
+      "roi": 4.88,
+      "gmv": 9380,
+      "orders": 21,
+      "units": 21
+    },
+    "traffic": {
+      "impressions": 2117,
+      "clicks": 78,
+      "ctr": 0.0368,
+      "ecpc": 24.67,
+      "avgRank": "-"
+    },
+    "conversion": {
+      "addToCart": 48,
+      "a2cRate": 61.54,
+      "orders": 21,
+      "cvr": 26.92,
+      "gmv": 9380,
+      "roi": 4.88
+    },
+    "budget": {
+      "dailyBudget": 1900,
+      "spent": 1923.99,
+      "utilized": 101.26,
+      "exhaustedTime": "Early / check Ads panel",
+      "missedSlots": "Possible missed slots"
+    },
+    "organic": {
+      "totalSales": 9380,
+      "adsSales": 9380,
+      "organicSales": 0,
+      "adsPercent": 100,
+      "organicPercent": 0
+    },
+    "targets": [
+      {
+        "kpi": "ROI",
+        "target": 5,
+        "actual": 4.88,
+        "status": "Improve"
+      },
+      {
+        "kpi": "CTR",
+        "target": "3%",
+        "actual": "0.0368%",
+        "status": "Improve"
+      },
+      {
+        "kpi": "Orders",
+        "target": "-",
+        "actual": 21,
+        "status": "Achieved"
+      },
+      {
+        "kpi": "GMV",
+        "target": "-",
+        "actual": 9380,
+        "status": "Achieved"
+      },
+      {
+        "kpi": "A2C Rate",
+        "target": "-",
+        "actual": "61.54%",
+        "status": "Achieved"
+      },
+      {
+        "kpi": "Spend",
+        "target": 1900,
+        "actual": 1923.99,
+        "status": "Over budget"
+      }
+    ],
+    "products": [
+      {
+        "product": 3,
+        "spend": 1923.99,
+        "impressions": 2117,
+        "clicks": 78,
+        "orders": 21,
+        "gmv": 9380,
+        "roi": 4.88,
+        "status": "Scale"
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": 12,
+        "spend": 1923.99,
+        "impressions": 2117,
+        "clicks": 78,
+        "orders": 21,
+        "gmv": 9380,
+        "roi": 4.88,
+        "status": "Scale"
+      }
+    ],
+    "cities": [
+      {
+        "city": 28,
+        "impressions": 2117,
+        "orders": 21,
+        "gmv": 9380,
+        "roi": 4.88
+      }
+    ],
+    "insights": {
+      "bestProduct": "KARIKKU OIL JULY 2026",
+      "bestKeyword": "Upload keyword report to calculate",
+      "bestCity": "Upload city report to calculate",
+      "worstKeyword": "-",
+      "worstProduct": "-",
+      "budgetExhaustedTime": "Budget fully used / check exact time in Instamart",
+      "missedOpportunity": "Increase daily budget if ROI remains healthy.",
+      "actionTomorrow": "Monitor and optimize low CTR areas."
+    }
+  }
+]
