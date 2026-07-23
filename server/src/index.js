@@ -13,7 +13,25 @@ const DB_FILE = path.join(DATA_DIR, 'uploads.json');
 fs.mkdirSync(DATA_DIR, { recursive: true });
 if (!fs.existsSync(DB_FILE)) fs.writeFileSync(DB_FILE, '[]');
 
-app.use(cors({ origin: [process.env.CLIENT_URL || 'http://localhost:5173', 'https://instamartads.vercel.app'] }));
+const allowedOrigins = ['http://localhost:5173', 'https://instamartads.vercel.app'];
+app.use((req, res, next) => {
+  const origin = req.headers.origin;
+  if (allowedOrigins.includes(origin)) {
+    res.header('Access-Control-Allow-Origin', origin);
+  } else {
+    res.header('Access-Control-Allow-Origin', '*'); // Fallback for testing
+  }
+  res.header('Access-Control-Allow-Credentials', 'true');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization, Access-Control-Request-Private-Network');
+  res.header('Access-Control-Allow-Private-Network', 'true');
+  res.header('Access-Control-Max-Age', '86400'); // Cache the preflight response
+  
+  if (req.method === 'OPTIONS') {
+    return res.status(204).end();
+  }
+  next();
+});
 app.use(express.json());
 const upload = multer({ storage: multer.memoryStorage() });
 
