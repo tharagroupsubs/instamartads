@@ -6,7 +6,7 @@ import { XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, Line, CartesianG
 import './style.css';
 
 const API = import.meta.env.VITE_API_URL || 'https://instamartads-1.onrender.com';
-const money = n => `Γé╣${Number(n || 0).toLocaleString('en-IN')}`;
+const money = n => `₹${Number(n || 0).toLocaleString('en-IN')}`;
 
 function StatCard({ title, value, hint, icon, trend }) {
   return (
